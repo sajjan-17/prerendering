@@ -9,9 +9,10 @@ function ProductDetailPage(){
             <h1>TITLE</h1>
             <p> DESCRIPTION</p>
         </Fragment>
-        
+
     )
 
+    
 }
 export async function getStaticProps(context){
   const {params} = context;
